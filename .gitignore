@@ -1,0 +1,45 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.jupyter/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Raw / large datasets — keep only the sample files in data/samples
+data/raw/
+data/processed/
+*.csv
+!data/samples/*.csv
+*.json
+!data/samples/*.json
+*.xml
+!data/samples/*.xml
+
+# Reports and binary exports
+*.pdf
+*.mp4
+*.docx
+*.pptx
+*.xlsx
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
